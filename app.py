@@ -30,7 +30,7 @@ def health():
 
 @app.get("/")
 def home():
-    return "Hello from EC2 + RDS + Secrets Manager!"
+    return "CI/CD Test: Deployed Automatically on Sep 10, 2025!"
 
 @app.get("/dbtest")
 def dbtest():
