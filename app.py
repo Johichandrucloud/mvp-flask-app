@@ -30,13 +30,13 @@ def health():
 
 @app.get("/")
 def home():
-    return "CI/CD test-ilo-app, sep-11, 2025!"
+    return "CI/CD ILO TEST SAMPLE - sep11,2025"
 
 @app.get("/dbtest")
 def dbtest():
     try:
         conn = pymysql.connect(
-            host=DB_HOST,
+          host=DB_HOST,
             user=DB_USER,
             password=DB_PASS,
             database=DB_NAME
