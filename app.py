@@ -30,8 +30,7 @@ def health():
 
 @app.get("/")
 def home():
-    return "CI/CD ILO TEST SAMPLE - sep11,2025"
-
+return "MVP Flask App – Step 1.5 CI/CD test OK"
 @app.get("/dbtest")
 def dbtest():
     try:
