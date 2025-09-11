@@ -30,7 +30,7 @@ def health():
 
 @app.get("/")
 def home():
-    return "CI/CD Test: Deployed Automatically on Sep 10, 2025!"
+    return "CI/CD test-ilo-app, sep-11, 2025!"
 
 @app.get("/dbtest")
 def dbtest():
